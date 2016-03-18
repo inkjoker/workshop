@@ -25,7 +25,6 @@ a {
 }
 
 .slide {
-  background: rgba(64, 64, 64, 0.9);
   flex: 0 0 0;
   order: 1;
   align-items: center;
@@ -54,15 +53,21 @@ a {
 
 .content > .title {
   font-weight: 700;
-  font-size: 28px;
+  font-size: 38px;
   text-transform: uppercase;
   position: absolute;
+  top:0;
   padding: 20px;
   background: rgba(64, 64, 64, 0.9);
   margin: 0;
   color: #fff;
   border-radius: 0 0 15px 0;
   box-shadow: 0 0 5px rgba(0,0,0,0.6);
+}
+
+.content > .title.-second {
+  right: 0;
+  border-radius: 0 0 0 15px;
 }
 
 .list {
@@ -76,6 +81,11 @@ a {
   font-size: 18px;
   float: right;
   color: #fff;
+}
+
+.list.-second {
+  float: left;
+  align-items: flex-start;
 }
 
 .loader {
@@ -101,4 +111,24 @@ a {
 .loader.active {
   opacity: 1;
   z-index: 1;
+}
+
+.subslider {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.subslider > .content {
+  flex: 0 0 0;
+  transition: flex 0.1s linear;
+  order: 1;
+}
+
+.subslider > .content.active {
+  flex: 1 0 100%;
+  order: 0;
 }

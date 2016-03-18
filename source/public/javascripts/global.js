@@ -23,9 +23,9 @@ define(function (require, define, module) {
                 while (++i < l) (ev = events[i]).callback.apply(ev.ctx, args);
         }
     };
-    function GlobalEvents() {
 
-    }
+    function GlobalEvents() {}
+
     GlobalEvents.prototype = {
         on: function (name, callback, context) {
             this._events || (this._events = {});
@@ -36,7 +36,6 @@ define(function (require, define, module) {
 
             return this;
         },
-
         off: function (name, callback) {
             var retain, ev, events, names, i, l, j, k;
 
@@ -71,7 +70,6 @@ define(function (require, define, module) {
                 }
             }
         },
-
         trigger: function (name) {
             if (!this._events) return this;
 
@@ -83,16 +81,6 @@ define(function (require, define, module) {
 
             return this;
         },
-        /**
-         *
-         * @param name - model field name
-         * @param value - model field value
-         * @returns {*} - current model
-         *
-         * Set new value for current field
-         * If name is object - set value for field name for each key in object
-         * Initialize change event for option model
-         */
         set: function (name, value) {
             if (!name && !value) return false;
             var key;
@@ -113,19 +101,12 @@ define(function (require, define, module) {
 
             return this.attribute[name];
         },
-        /**
-         *
-         * @param name - field name
-         * @returns {*}
-         *
-         * Get value by field name
-         */
         get: function (name) {
             if (!name) return undefined;
 
             return this.attribute[name];
         }
-    }
+    };
 
     return GlobalEvents;
 });
