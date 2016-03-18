@@ -1,0 +1,25 @@
+{
+  "name": "workshop",
+  "description": "",
+  "main": "package.json",
+  "authors": [
+    "Sergei Solyanik <sergei.solyanik@madebyewave.com>"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "underscore": "^1.8.3",
+    "knockout": "^3.4.0",
+    "requirejs": "^2.2.0",
+    "jquery": "^2.2.2"
+  }
+}
