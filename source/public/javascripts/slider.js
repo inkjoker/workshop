@@ -30,7 +30,7 @@ define(function (require, define, module) {
                 return false;
             }
 
-            this.set('progress', ++progress);
+            this.set('progress', progress);
             this.trigger('load.model', progress);
 
             setTimeout(function () {

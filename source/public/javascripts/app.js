@@ -14,27 +14,29 @@ define(function (require, define, module) {
         'progress': 0
     });
 
+    _.extend(slider, {
+        updateState: function(slider, index, loader) {
+            var scope = this;
+
+            slider.removeClass('active').eq(index).addClass('active');
+            loader.addClass('active');
+
+            setTimeout(function () {
+                scope.set('progress', 100);
+                loader.removeClass('active');
+            }, 500);
+        }
+    });
+
     slider.on('update.slide', function (index) {
-        slide.removeClass('active').eq(index).addClass('active');
-        loader.addClass('active');
+        this.updateState(slide, index, loader);
 
-        setTimeout(function () {
-            slider.set('progress', 100);
-            loader.removeClass('active');
-        }, 1000);
-
-        slider.set('subslide', 0);
-        slider.set('sublength', slide.filter('.active').find(subSlide).length);
+        this.set('subslide', 0);
+        this.set('sublength', slide.filter('.active').find(subSlide).length);
     });
 
     slider.on('update.subslide', function (index) {
-        slide.filter('.active').find(subSlide).removeClass('active').eq(index).addClass('active');
-        loader.addClass('active');
-
-        setTimeout(function () {
-            slider.set('progress', 100);
-            loader.removeClass('active');
-        }, 1000)
+        this.updateState(slide.filter('.active').find(subSlide), index, loader);
     });
 
     slider.on('load.model', function (progress) {

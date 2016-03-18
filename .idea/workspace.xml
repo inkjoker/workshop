@@ -2,26 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e8968c6-e772-4215-9435-d7222cf36900" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/public/images/abstr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/public/images/image2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/public/images/images1.png" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/public/images/images.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/public/images/logo-javascript.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/public/images/oop.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/public/images/shema-metro-400x340.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/node_modules/.bin/bower" afterPath="$PROJECT_DIR$/source/node_modules/.bin/bower" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/public/javascripts/app.js" afterPath="$PROJECT_DIR$/source/public/javascripts/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/public/javascripts/global.js" afterPath="$PROJECT_DIR$/source/public/javascripts/global.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/public/javascripts/main.js" afterPath="$PROJECT_DIR$/source/public/javascripts/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/public/javascripts/slider.js" afterPath="$PROJECT_DIR$/source/public/javascripts/slider.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/public/stylesheets/style.css" afterPath="$PROJECT_DIR$/source/public/stylesheets/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/views/index.jade" afterPath="$PROJECT_DIR$/source/views/index.jade" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/source/views/slider-1.html" afterPath="$PROJECT_DIR$/source/views/slider/slider-1.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/source/views/slider-2.html" afterPath="$PROJECT_DIR$/source/views/slider/slider-2.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/source/views/slider-3.html" afterPath="$PROJECT_DIR$/source/views/slider/slider-3.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/source/views/slider-4.html" afterPath="$PROJECT_DIR$/source/views/slider/slider-4.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/source/views/slider-5.html" afterPath="$PROJECT_DIR$/source/views/slider/slider-5.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/views/slider/slider-2.html" afterPath="$PROJECT_DIR$/source/views/slider/slider-2.html" />
     </list>
     <ignored path="workshop.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/source/public/javascripts/slider.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+              <caret line="36" column="39" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -56,9 +40,24 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/public/javascripts/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.775641">
-              <caret line="45" column="26" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.46153846">
+              <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="slider-2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/views/slider/slider-2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.6">
+              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+              <folding>
+                <element signature="n#style#0;n#li#0;n#ul#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#1;n#ul#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#2;n#ul#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#3;n#ul#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -95,14 +94,14 @@
         <option value="$PROJECT_DIR$/source/views/slider-2.html" />
         <option value="$PROJECT_DIR$/source/public/javascripts/global.js" />
         <option value="$PROJECT_DIR$/source/views/slider/slider-1.html" />
-        <option value="$PROJECT_DIR$/source/views/slider/slider-2.html" />
         <option value="$PROJECT_DIR$/source/public/stylesheets/style.css" />
         <option value="$PROJECT_DIR$/source/views/slider/slider-3.html" />
         <option value="$PROJECT_DIR$/source/views/slider/slider-4.html" />
         <option value="$PROJECT_DIR$/source/views/slider/slider-5.html" />
         <option value="$PROJECT_DIR$/source/public/javascripts/main.js" />
-        <option value="$PROJECT_DIR$/source/public/javascripts/app.js" />
+        <option value="$PROJECT_DIR$/source/views/slider/slider-2.html" />
         <option value="$PROJECT_DIR$/source/public/javascripts/slider.js" />
+        <option value="$PROJECT_DIR$/source/public/javascripts/app.js" />
       </list>
     </option>
   </component>
@@ -590,6 +589,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/source/public/javascripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/views/slider/slider-5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.023178808">
+          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+          <folding>
+            <element signature="n#style#0;n#li#0;n#ul#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#1;n#ul#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/views/slider/slider-4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5562914">
+          <caret line="24" column="77" selection-start-line="24" selection-start-column="77" selection-end-line="24" selection-end-column="77" />
+          <folding>
+            <element signature="n#style#0;n#li#1;n#ul#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#2;n#ul#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#3;n#ul#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#4;n#ul#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#5;n#ul#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/source/views/slider/slider-3.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.60264903">
@@ -605,34 +637,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/views/slider/slider-4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.8">
-          <caret line="24" column="77" selection-start-line="24" selection-start-column="77" selection-end-line="24" selection-end-column="77" />
-          <folding>
-            <element signature="n#style#0;n#li#1;n#ul#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#2;n#ul#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#3;n#ul#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#4;n#ul#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#5;n#ul#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/views/slider/slider-5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#li#1;n#ul#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/views/slider/slider-2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.5">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        <state vertical-scroll-proportion="-12.6">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
           <folding>
             <element signature="n#style#0;n#li#0;n#ul#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#1;n#ul#0;n#!!top" expanded="true" />
@@ -642,26 +650,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/public/javascripts/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/public/javascripts/slider.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <caret line="36" column="39" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/public/javascripts/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.775641">
-          <caret line="45" column="26" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.46153846">
+          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
           <folding />
         </state>
       </provider>
