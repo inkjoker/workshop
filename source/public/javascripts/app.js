@@ -47,6 +47,10 @@ define(function (require, define, module) {
         init: function () {
             slider.init();
             slide.removeClass('active').eq(slider.get('slide')).addClass('active');
+
+            jQuery('.list').on('click', function() {
+                jQuery(this).toggleClass('active');
+            });
         }
     }
 });

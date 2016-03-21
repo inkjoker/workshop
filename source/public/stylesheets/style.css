@@ -50,6 +50,7 @@ a {
   width: 100%;
   position: relative;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .content > .title {
@@ -81,6 +82,11 @@ a {
   font-size: 18px;
   float: right;
   color: #fff;
+}
+
+.list.active {
+    width: 0;
+    text-indent: -10000px;
 }
 
 .list.-second {
