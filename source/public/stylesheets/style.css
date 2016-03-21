@@ -30,6 +30,7 @@ a {
   align-items: center;
   justify-content: center;
   transition: flex 0.1s linear;
+  transform: rotateY(40deg);
   position: relative;
 }
 
@@ -56,7 +57,6 @@ a {
   font-size: 38px;
   text-transform: uppercase;
   position: absolute;
-  top:0;
   padding: 20px;
   background: rgba(64, 64, 64, 0.9);
   margin: 0;
@@ -125,10 +125,8 @@ a {
 .subslider > .content {
   flex: 0 0 0;
   transition: flex 0.1s linear;
-  order: 1;
 }
 
 .subslider > .content.active {
   flex: 1 0 100%;
-  order: 0;
 }
