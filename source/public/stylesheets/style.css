@@ -30,7 +30,6 @@ a {
   align-items: center;
   justify-content: center;
   transition: flex 0.1s linear;
-  transform: rotateY(40deg);
   position: relative;
 }
 
@@ -70,7 +69,9 @@ a {
   right: 0;
   border-radius: 0 0 0 15px;
 }
-
+.title.active {
+  bottom: 0;
+}
 .list {
   background: rgba(64, 64, 64, 0.9);
   display: inline-flex;
@@ -129,10 +130,16 @@ a {
 }
 
 .subslider > .content {
+  display: none;
   flex: 0 0 0;
   transition: flex 0.1s linear;
 }
 
+.subslider > .content:first-child {
+  height: 100%;
+}
+
 .subslider > .content.active {
+  display: block;
   flex: 1 0 100%;
 }

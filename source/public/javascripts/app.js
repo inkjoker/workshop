@@ -51,6 +51,9 @@ define(function (require, define, module) {
             jQuery('.list').on('click', function() {
                 jQuery(this).toggleClass('active');
             });
+            jQuery('.title ').on('click', function() {
+                jQuery(this).toggleClass('active');
+            })
         }
     }
 });
